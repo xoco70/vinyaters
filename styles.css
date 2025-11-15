@@ -76,3 +76,21 @@ footer {
   margin-top: 3rem;
   font-size: 0.9rem;
 }
+.btn-primary {
+  display: inline-block;
+  background-color: #d62828;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #b61f1f;
+  color: #fff;
+  transform: scale(1.05);
+}
+
